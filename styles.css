@@ -82,7 +82,7 @@ body {
     bottom: 0;
     width: 100%;
   }
- @media  only screen and (max-width:600px){
+  @media  only screen and (max-width:600px){
 
     body {
       font-family: Arial, sans-serif;
@@ -90,18 +90,27 @@ body {
       padding: 0;
       background-color: #f4f4f4;
       color: #333;
+     
     }
     
     header {
       background-color: #333;
       color: #fff;
-      padding: 5px;
+      padding: 2px;
+      
       text-align: center;
     }
-    
+    header h1{
+   
+      font-size: larger;
+    }
+    header p{
+      font-size: small;
+     
+    }
     main {
-      padding: 5px;
-     background-color: #29f837;
+      padding: 10px;
+    
     }
     
   
@@ -110,7 +119,7 @@ body {
       display: flex;
       flex-wrap: wrap;
       gap: 5px;
-      background-color: #db1e1e;
+    
      
     }
     
@@ -119,7 +128,7 @@ body {
       border: 1px solid #ddd;
       border-radius: 4px;
       padding: 5px;
-      width: 75px;
+      width: 85px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
     .movie-card h3{
